@@ -36,20 +36,22 @@ public class KanbanDao {
 	// 수정
 	public void update(KanbanDto kanban) {
 
-		String sql = "UPDATE works" + "SET" + " status = ?" + "WHERE id = ?";
+		String sql = "UPDATE works" + " SET" + "	status = ?, " + "	workNm = ? " + " WHERE id = ?";
+		try (Connection conn = getConnection(); PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
-		try (Connection conn = getConnection();
-			PreparedStatement pstmt = conn.prepareStatement(sql)) {
 			pstmt.setString(1, kanban.getStatus().toString());
-			pstmt.setString(2, kanban.getStatus().toString());
+			pstmt.setString(2, kanban.getWorkNm());
 			pstmt.setInt(3, kanban.getId());
-			
+
 			pstmt.executeUpdate();
+
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 			throw new KanbanException("수정에 실패하였습니다.");
 		}
+
 	}
+
 
 	// 삭제
 	public void delete(KanbanDto kanban) {
@@ -111,6 +113,7 @@ public class KanbanDao {
 		
 		try(Connection conn = getConnection();
 				PreparedStatement pstmt = conn.prepareStatement(sql)) {
+				pstmt.setInt(1, id);
 				ResultSet rs = pstmt.executeQuery();
 				if(rs.next()) {
 					LocalDateTime modDt = null;

@@ -6,14 +6,14 @@
 <form name="frmRegist" method ="post" action="<c:url value="/register"/> " target ="ifrmProcess">
 
 <div class='status_wrap'>
-<input type="radio" name="status" value="READY" id=status_READY checked>
+<input type="radio" name="status" value="READY" id="status_READY">
 <label for="status_READY">준비중</label>
 
-<input type="radio" name="status" value="PROGRESS" id=status_PROGRESS>
+<input type="radio" name="status" value="PROGRESS" id="status_PROGRESS">
 <label for="status_PROGRESS">진행중</label>
 
 
-<input type="radio" name="status" value="DONE" id=status_DONE>
+<input type="radio" name="status" value="DONE" id="status_DONE">
 <label for="status_DONE">완료</label>
 </div>
 
