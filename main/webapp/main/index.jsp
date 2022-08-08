@@ -20,9 +20,10 @@
 	<input type="radio" name="sports" value="ARM" id="sports_ARM">
 	<label for="sports_CHEST">팔</label>
 </div>
-	<input type="text name=" sportNm" size ="30" placeholder="운동 종목 입력(bench press 등..)"><br>
-	<input type="text name=" workoutSet" size ="30" placeholder="세트 수...(숫자만 입력하세요)"><br>
-	<input type="text name=" workoutNum" size ="30" placeholder="횟수...(숫자만 입력하세요)"><br>
+
+	<input type="text" name="sportNm" size ="30" placeholder="운동 종목 입력(bench press 등..)"><br>
+	<input type="text" name="workoutSet" size ="30" placeholder="세트 수...(숫자만 입력하세요)"><br>
+	<input type="text" name="workoutNum" size ="30" placeholder="횟수...(숫자만 입력하세요)"><br>
 	<button type="submit">등록하기</button>
 
 </form>

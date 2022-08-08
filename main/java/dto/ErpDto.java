@@ -18,7 +18,7 @@ public class ErpDto {
 
 	public ErpDto(int id, Sports sports, String sportNm, int workoutSet, int workoutNum, LocalDateTime regDt,
 			LocalDateTime modDt) {
-		super();
+	
 		this.id = id;
 		this.sports = sports;
 		this.sportNm = sportNm;
