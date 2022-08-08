@@ -6,18 +6,24 @@ import constants.Sports;
 
 public class ErpDto {
 	private int id; // 등록번호
-	private Sports sports;
-	private String sportNm;
+	private Sports sports; // 운동 부위
+	private String sportNm; // 운동 종목
+	private int workoutSet;
+	private int workoutNum;
 	private LocalDateTime regDt;
 	private LocalDateTime modDt;
 
-	public ErpDto() {}
-	
-	public ErpDto(int id, Sports sports, String sportNm, LocalDateTime regDt, LocalDateTime modDt) {
-	
+	public ErpDto() {
+	}
+
+	public ErpDto(int id, Sports sports, String sportNm, int workoutSet, int workoutNum, LocalDateTime regDt,
+			LocalDateTime modDt) {
+		super();
 		this.id = id;
 		this.sports = sports;
 		this.sportNm = sportNm;
+		this.workoutSet = workoutSet;
+		this.workoutNum = workoutNum;
 		this.regDt = regDt;
 		this.modDt = modDt;
 	}
@@ -46,6 +52,22 @@ public class ErpDto {
 		this.sportNm = sportNm;
 	}
 
+	public int getWorkoutSet() {
+		return workoutSet;
+	}
+
+	public void setWorkoutSet(int workoutSet) {
+		this.workoutSet = workoutSet;
+	}
+
+	public int getWorkoutNum() {
+		return workoutNum;
+	}
+
+	public void setWorkoutNum(int workoutNum) {
+		this.workoutNum = workoutNum;
+	}
+
 	public LocalDateTime getRegDt() {
 		return regDt;
 	}
@@ -64,9 +86,8 @@ public class ErpDto {
 
 	@Override
 	public String toString() {
-		return "ErpDto [id=" + id + ", sports=" + sports + ", sportNm=" + sportNm + ", regDt=" + regDt + ", modDt="
-				+ modDt + ", getId()=" + getId() + ", getSports()=" + getSports() + ", getSportNm()=" + getSportNm()
-				+ ", getRegDt()=" + getRegDt() + ", getModDt()=" + getModDt() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+		return "ErpDto [id=" + id + ", sports=" + sports + ", sportNm=" + sportNm + ", workoutSet=" + workoutSet
+				+ ", workoutNum=" + workoutNum + ", regDt=" + regDt + ", modDt=" + modDt + "]";
 	}
+
 }

@@ -4,8 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="<c:url value="/css/style.css"/>">
+<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css"/>">
 <script src="<c:url value="/js/common.js"/>"></script>
 <title>운동기록프로그램(erp)</title>
 <body>
