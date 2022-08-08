@@ -1,11 +1,12 @@
 # Jsp_Study
 
+[erp 소스코드 링크](https://github.com/alswo471/Jsp_Study/tree/erp)
+
 ### 08/07
 Dto 까지 만듬 
 Dao 도 만들어서 티스토리 수정해야함
 
 
-[erp 소스코드 링크](https://github.com/alswo471/Jsp_Study/tree/erp)
 
 ### 08/08
 서비스 클래스 구현 !
