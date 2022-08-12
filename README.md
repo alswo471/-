@@ -1,6 +1,7 @@
 # Jsp_Study
 
-[workout 소스코드 링크]
+[workout 소스코드 링크](https://github.com/alswo471/Jsp_Study/tree/workout)
+08/12 mybatis 셋팅 완료 
 
 [erp 소스코드 링크](https://github.com/alswo471/Jsp_Study/tree/erp)
 
