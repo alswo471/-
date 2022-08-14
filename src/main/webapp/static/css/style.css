@@ -10,3 +10,41 @@ body {margin: 0;}
 a {text-decoration: none;}
 ul ol {list-style: none; margin: 0; padding: 0;}
 dl, dt, dd {margin: 0; padding: 0;}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"]{border: 1px solid #d5d5d5; height: 40px; padding: 0 10px; border-radius: 3px; width: 100%;}
+
+.layout_width{max-width: 1100px; width: 100%; margin: 0 auto;}
+.dn {display: none !important;}
+
+/** 여백 */
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+
+/** 헤더 영역 S */
+header .top-menu {border-bottom: 2px solid rgb(218, 48, 79);  height: 85px;}
+header .top-menu > div {text-align: right; padding: 10px; }
+header .top-menu > div > a{ margin-left: 10px; border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;}
+
+header .logo{text-align: center; padding: 100px 0; }
+
+
+/** 헤더 영역 E */
+
+/** 메뉴 영역 S */
+nav {background-color: #212121;}
+nav a{color: #fff; font-size: 1.5rem; padding: 15px 20px; display: inline-block;}
+/** 메뉴 영역 E */
+
+/** 본문 영역 S */
+main{padding: 10px; min-height: 600px;}
+/** 본문 영역 E */
+
+/** 푸터 영역 S */
+footer{border-top: 2px solid #212121; background-color: #f8f8f8; text-align: center; padding: 50px 0; font-size: 1.2rem;}
+/** 푸터 영역 E */

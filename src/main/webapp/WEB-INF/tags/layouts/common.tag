@@ -35,9 +35,9 @@
 	<jsp:invoke fragment="header" />
 	
 	
-	
+	<jsp:invoke fragment="menu" />
 	<jsp:doBody />
-
 	<jsp:invoke fragment="footer"/>
 </body>
+<iframe name="ifrmProcess" width="100%" height="0" class="dn"></iframe>
 </html>
