@@ -3,7 +3,7 @@
 <%@ taglib prefix="layout" tagdir="/WEB-INF/tags/layouts" %>
 
 <layout:main title = "회원가입">
-<form id= "frmRegist" name= "frmRegist" method = "post" action="<c:url value="/member/join"/>" target="ifrmProcess" autocomplete="off">
+<form id= "frmRegist" name="frmRegist" method="post" action="<c:url value="/member/join"/>" target="ifrmProcess" autocomplete="off">
 <jsp:include page="_form.jsp" />
 
 <div class='term_agree'>

@@ -3,8 +3,8 @@
 <%@ taglib prefix="layout" tagdir="/WEB-INF/tags/layouts" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ attribute name="title" type="java.lang.String" %>
-<layout:common title="${title}">
 
+<layout:common title="${title}">
 	<jsp:attribute name="header">
 	
 	<header>
@@ -43,5 +43,4 @@
 	<jsp:doBody />
 </main>
 	</jsp:body>
-
 </layout:common>
