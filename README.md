@@ -1,5 +1,15 @@
 # Jsp_Study
 
+[운동페이지 프로젝트]
+08/18 
+<br>
+디비랑 디티오 구성완료
+<br>
+Mapper.xml 설정 진행중 
+<br>
+resultMap >> id 값 바꿔야함
+
+
 [workout 소스코드 링크](https://github.com/alswo471/Jsp_Study/tree/workout)
 <br>
 08/12 mybatis 셋팅 완료 
