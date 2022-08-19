@@ -8,6 +8,17 @@
 Mapper.xml 설정 진행중 
 <br>
 resultMap >> id 값 바꿔야함
+<br>
+08/19 
+<br>
+서블릿 생성 후 Contextpath 지정 
+<br>
+뷰 단 구현(틀만)
+<br>
+Mapper.xml 구성 중 .. chest , workoutDt , record 만 구성함
+<br>
+커넥션 객체 생성 해야함.. 
+
 
 
 [workout 소스코드 링크](https://github.com/alswo471/Jsp_Study/tree/workout)
