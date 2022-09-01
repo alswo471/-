@@ -17,7 +17,7 @@ resultMap >> id 값 바꿔야함
 <br>
 Mapper.xml 구성 중 .. chest , workoutDt , record 만 구성함
 <br>
-커넥션 객체 생성 해야함.. 
+커넥션 객체 생성 해야함.. .
 
 
 
